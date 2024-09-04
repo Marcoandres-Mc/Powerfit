@@ -118,3 +118,11 @@ card{
 .plan:hover{
     border: 3px solid rgb(78, 254, 254);
 }
+.centrado {
+    z-index: 999;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 200px;
+    height: 100px;
+}
