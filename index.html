@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Document</title>
+</head>
+
+<body class="bg-light">
+  <header class="fixed-top">
+    <nav
+      class="navbar navbar-expand-lg colorPrincipal border-bottom border-white bg-black text-light p-2 d-flex flex-row">
+      <div class="container-fluid">
+        <div>
+          <img src="./Logo.png" width="80" alt="">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"style="color:white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex flex-col ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-light line-poner" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light line-poner" href="#">Negocios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light line-poner" href="#">Para ti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light line-poner" href="#">Preguntas</a>
+            </li>
+            <li class="nav-item text-light">
+              <a class="nav-link text-light line-poner" href="#">Descargas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="d-flex flex-column justify-content-center align-items-center">
+    <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="https://i0.wp.com/blog.smartfit.com.mx/wp-content/uploads/2023/08/como-entrenar-en-el-gym-por-un-dia-peso-libre-1.jpg?fit=1200%2C675&ssl=1"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="https://www.bestgym.com.mx/storage/carousels/August2023/zP57JEjBN0eGOz4xyTvO.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="https://img.livestrong.com/-/clsd/getty/5825b909fdc14525aa5007569ad2df08.jpg" class="d-block w-100"
+            alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <section id="Inicio"
+      class="colorBlanco  d-flex flex-column justify-content-center align-items-center p-5 m-5 w-75 p-3 mb-2 bg-black text-white">
+      <h3 class="m-3 h3">POWERFIT</h3>
+      <p class="text-center"> ¡Bienvenido a Power Fit, el gimnasio donde tu transformación física y mental comienza hoy!
+        <br>
+        Ubicado en el vibrante corazón de la ciudad, Power Fit se erige como el destino definitivo para aquellos que
+        buscan llevar su bienestar a un nivel superior. Nuestro gimnasio está meticulosamente diseñado para ofrecerte
+        una experiencia de entrenamiento incomparable, combinando instalaciones de última tecnología con un ambiente que
+        te inspira a alcanzar tus metas.
+
+        Al ingresar a Power Fit, serás recibido por un espacio moderno y luminoso, con equipos de ejercicio de
+        vanguardia que garantizan un entrenamiento efectivo y seguro. Desde nuestras áreas de pesas libres y máquinas de
+        resistencia hasta nuestras zonas de cardio equipadas con televisores y sistemas de sonido envolventes, cada
+        rincón está pensado para maximizar tu rendimiento y comodidad.
+      </p>
+      <button type="button" class="btn btn-outline-info m-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Video presentacion
+      </button>
+    </section>
+    <section>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog ">
+          <div class="modal-content ">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Video presetacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/HQfF5XRVXjU?si=ITzXzHgz9vDL-qGs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+
+    <h1>¡Escoge la que te quede más cercana!</h1>
+    <br><br>
+    <section id="Parati" class="sedes1 d-flex flex-row gap-4 justify-content-center align-items-center flex-wrap fs-6Y">
+      <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
+        <img src="https://s3.amazonaws.com/smartsystem-prod/pictures/10786/big/Open_Plaza_Huancayo.jpeg?1664485240"
+          class="card-img-top" alt="Open Plaza Huancayo" style="height: 190px; width: 100%;">
+        <div class="card-body p-4">
+          <h3 class="card-title h3 m-0">Open Plaza Huancayo</h3>
+          <p class="card-text fst-italic m-0">Av. Ferrocarril 146, Huancayo, Junín</p>
+          <a href="" class="">Ver gimnasio</a>
+          <div class="d-flex flex-row text-center mt-4">
+            <p class="fw-bold">POWER: S/79,90</p>
+            <p class="fw-bold">FIT: S/89,90</p>
+            <p class="fw-bold">BLACK: S/109,90</p>
+          </div>
+          <a href="#" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+        </div>
+      </div>
+      <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
+        <img src="https://pictures.smartfit.com.br/6292/big/1.jpg?1560372016" class="card-img-top"
+          alt="Real Plaza Huancayo" style="height: 190px; width: 100%;">
+        <div class="card-body p-4">
+          <h3 class="card-title h3 m-0">Real Plaza Huancayo</h3>
+          <p class="card-text fst-italic m-0">Av. Ferrocarril, Huancayo, Junín</p>
+          <a href="" class="">Ver gimnasio</a>
+          <div class="d-flex flex-row text-center mt-4">
+            <p class="fw-bold">POWER: S/79,90</p>
+            <p class="fw-bold">FIT: S/89,90</p>
+            <p class="fw-bold">BLACK: S/109,90</p>
+          </div>
+          <a href="#" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+        </div>
+      </div>
+      <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
+        <img
+          src="https://pictures.smartfit.com.br/13778/big/WhatsApp_Image_2024-04-15_at_3.28.48_PM_%281%29.jpeg?1713213491"
+          class="card-img-top" alt="Qhatu Plaza Santa Clara" style="height: 190px; width: 100%;">
+        <div class="card-body p-4">
+          <h3 class="card-title h3 m-0"> Plaza Santa Clara</h3>
+          <p class="card-text fst-italic m-0">Av. La Estrella N° 286, Lima Ate, Lima</p>
+          <a href="" class="">Ver gimnasio</a>
+          <div class="d-flex flex-row text-center mt-4">
+            <p class="fw-bold">Power: S/79,90</p>
+            <p class="fw-bold">FIT: S/89,90</p>
+            <p class="fw-bold">BLACK: S/109,90</p>
+          </div>
+          <a href="#" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+        </div>
+      </div>
+      <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
+        <img src="https://pictures.smartfit.com.br/14850/big/1201700a30c7ae0f0fcb70de8ebef271.jpeg?1721239422"
+          class="card-img-top" alt="Real Plaza Puruchuco" style="height: 190px; width: 100%;">
+        <div class="card-body p-4">
+          <h3 class="card-title h3 m-0">Real Plaza Puruchuco</h3>
+          <p class="card-text fst-italic m-0">Av. Nicolás Aylón 4770, Ate, Lima</p>
+          <a href="" class="">Ver gimnasio</a>
+          <div class="d-flex flex-row text-center mt-4">
+            <p class="fw-bold">Power: S/79,90</p>
+            <p class="fw-bold">FIT: S/89,90</p>
+            <p class="fw-bold">BLACK: S/109,90</p>
+          </div>
+          <a href="#" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+        </div>
+      </div>
+      <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
+        <img src="https://pictures.smartfit.com.br/14131/big/8ce1984f03f99459a3e87c24e8e8ed55.jpeg?1717530763"
+          class="card-img-top" alt="Estación Bayovar" style="height: 190px; width: 100%;">
+        <div class="card-body p-4">
+          <h3 class="card-title h3 m-0">Estación Bayovar</h3>
+          <p class="card-text fst-italic m-0">Av. Próceres de la Independencia, Lima</p>
+          <a href="" class="">Ver gimnasio</a>
+          <div class="d-flex flex-row text-center mt-4">
+            <p class="fw-bold">Power: S/79,90</p>
+            <p class="fw-bold">FIT: S/89,90</p>
+            <p class="fw-bold">BLACK: S/109,90</p>
+          </div>
+          <a href="#" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+        </div>
+      </div>
+      <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
+        <img src="https://pictures.smartfit.com.br/15607/big/2b6aca40019e8052312d6b07e8904abb.png?1724968891"
+          class="card-img-top" alt="Estación Bayovar" style="height: 190px; width: 100%;">
+        <div class="card-body p-4 text-center">
+          <h3 class="card-title h3 m-0 highlight">PROXIMAMENTE</h3>
+          <h3 class="card-title h3 m-0">Park Office La Molina</h3>
+          <p class="card-text fst-italic m-0">Av. Javier Prado Este 6210, La Molina, Lima</p>
+          <a href="" class="">Ver gimnasio</a>
+          <a href="#" class="btn btn-outline-info w-100 mt-4">¡Inscríbete ya!</a>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <h1>Opciones de Membresía</h1>
+    <section class="d-flex flex-col gap-5 m-5 d-flex flex-row gap-4 justify-content-center align-items-center flex-wrap fs-6Y">
+      <div class="card  bg-black text-white  p-0 m-0" style="width: 25rem;">
+        <!--         <img src="..." class="card-img-top" alt="...">
+ -->
+        <div class="card-body  d-flex flex-column justify-content-center align-items-center plan">
+          <h3 class="card-title p-0 m-0">Plan Power</h3>
+          <ul>
+            <li>Entrena en la sede que elijas.</li>
+            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
+            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
+          </ul>
+          <a href="#" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
+        </div>
+      </div>
+      <div class="card bg-black text-white" style="width: 25rem;">
+        <!--         <img src="..." class="card-img-top" alt="...">
+ -->
+        <div class="card-body d-flex flex-column justify-content-center align-items-center plan">
+          <h3 class="card-title p-0 m-0">Plan Fit</h3>
+          <ul>
+            <li>Entrena en tu gimnasio de elección.</li>
+            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
+            <li>Clases grupales con profesores, incluidas actividades como baile, activación y relajación.</li>
+            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
+          </ul>
+          <a href="#" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
+        </div>
+      </div>
+      <div class="card bg-black text-white" style="width: 25rem;">
+        <!--         <img src="..." class="card-img-top" alt="...">
+ -->
+        <div class="card-body d-flex flex-column justify-content-center align-items-center plan">
+          <h3 class="card-title p-0 m-0">Plan Black</h3>
+          <ul>
+            <li>Entrena en cualquiera de las más de 1500 sedes de Smart Fit en Perú y Latinoamérica.</li>
+            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
+            <li>Clases grupales con profesores, incluidas actividades como baile, activación y relajación.</li>
+            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
+            <li>Uso de Smart Fit Go para entrenar donde y cuando quieras.</li>
+            <li>Relájate en los sillones de masaje.</li>
+            <li>Opción de invitar a 5 personas al mes al gimnasio que prefieras.</li>
+          </ul>
+          <a href="#" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <section class="d-flex flex-column justify-content-center align-items-center m-5 p-5 w-75 bg-black text-white">
+      <h3>¡Contáctanos!</h3>
+      <br>
+      <form class="row g-3 w-100">
+        <div class="col-md-6">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationDefault02" required>
+        </div>
+        <div class="col-md-12">
+          <label for="exampleFormControlInput1" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+            required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Teléfono</label>
+          <input type="number" class="form-control" id="validationDefault03" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault04" class="form-label">Ciudad</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Elige...</option>
+            <option>Lima</option>
+          </select>
+        </div>
+        <div class="col-md-12">
+          <label for="validationTextarea" class="form-label">Descripción</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="Escribe aquí..." required></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Estoy de acuerdo con los términos y condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <button class="btn btn-outline-info" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <br><br><br>
+    <section class="descargas colorBlanco w-100 d-flex justify-content-between align-items-center p-5"
+      style="background-color: rgb(78, 254, 254);">
+      <div class="col-6 p-4">
+        <h2>Descargas una experiencia de entrenamiento completa, dentro y fuera del gimnasio.</h2>
+        <p>Nuestra aplicación de entrenamiento no solo te permite seguir rutinas básicas, sino que también ofrece un
+          monitoreo avanzado de tu progreso físico. Con gráficos detallados y estadísticas en tiempo real, puedes ver
+          cómo evolucionan tus entrenamientos, ajustando tus rutinas según tus objetivos específicos, ya sea pérdida de
+          peso, aumento de masa muscular o mejora de resistencia.</p>
+        <figure class="d-flex flex-row justify-content-start gap-5 my-5">
+          <img src="https://www.guidum.com/wp-content/uploads/2023/06/google-play-badge-2.png" class="w-25" alt="">
+          <img src="https://www.fotodng.com/wp-content/uploads/2017/09/app-store.png" class="w-25" alt="">
+        </figure>
+      </div>
+      <figure class="imagen-app col-6 d-flex justify-content-end">
+        <img class="rounded w-100"
+          src="https://img.freepik.com/vector-premium/aplicacion-movil-gimnasio-color-azul_150082-18.jpg" alt="">
+      </figure>
+    </section>
+    <br><br><br>
+
+    <section id="Preguntas"
+    class="d-flex flex-column justify-content-center align-items-center m-5 p-5 colorBlanco w-75 bg-black text-white">
+    <h1 class="pb-3">Preguntas Frecuentes</h1>
+    <div class="accordion w-100 pb-4" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            1. ¿Qué horarios tiene el gimnasio?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Nuestro gimnasio está abierto de lunes a viernes de 6:00 a 22:00 y los fines de semana de 8:00 a 20:00.
+              Las clases grupales y sesiones de entrenamiento personal tienen horarios específicos, que puedes
+              consultar en nuestra página web o en la recepción.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            2. ¿Necesito una membresía para acceder al gimnasio?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Sí, en Power Fit ofrecemos diferentes tipos de membresías para adaptarnos a tus necesidades. También contamos con opciones de membresía para acceso limitado o completo.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            3. ¿Ofrecen entrenadores personales?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Sí, en Power Fit contamos con entrenadores personales altamente capacitados. Puedes contratar sesiones
+              individuales o paquetes de entrenamiento. Consulta con nuestra recepción para más detalles y para
+              programar una sesión de prueba gratuita.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            4. ¿Cómo puedo inscribirme en el gimnasio?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Puedes inscribirte fácilmente a través de nuestra página web en la sección de "Inscríbete".
+              Selecciona el plan que más se ajuste a tus necesidades, completa el formulario de inscripción y
+              realiza el pago en línea. También puedes inscribirte directamente en cualquiera de nuestras sedes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            5. ¿Cuáles son los métodos de pago disponibles?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Aceptamos pagos con tarjeta de crédito o débito (Visa, Mastercard, etc.) a través de la web. Si prefieres pagar en persona, puedes hacerlo directamente en la recepción de cualquiera de nuestras sedes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            6. ¿Cómo puedo cancelar mi membresía?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Puedes cancelar tu membresía en cualquier momento desde tu cuenta en la página web. Asegúrate de hacerlo antes del siguiente ciclo de facturación para evitar cargos adicionales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <footer class="p-5 d-flex flex-column justify-content-center align-items-center p-5 bg-black">
+    <div class="logo">
+      <img src="./Logo.png" width="150" alt="">
+    </div>
+    <br>
+    <div class="social-links m-0">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-youtube"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <div class="linee"></div>
+    <div class="d-flex flex-column justify-content-center align-items-center text-white">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <a class="text-white line-poner" href="../trabajoo/SobreNosotros.html">¿Quiénes somos?</a>
+        <a class="text-white line-poner" href="../trabajoo/Reclamos.html">LIBRO DE RECLAMACIONES</a>
+        <a class="text-white line-poner" href="../trabajoo/Sustentabilidad.html">Sustentabilidad</a>
+        <a class="text-white line-poner" href="#Planes">Conoce nuestros planes</a>
+      </div>
+    </div>
+    <div class="reclamaciones">
+      <img src="./libro-de-reclamaciones.png" width="150" alt="Libro de Reclamaciones">
+    </div>
+  </footer>
+  <div class="contacto position-fixed bottom-0 end-0">
+    <a href="https://wa.me/5215570000000?text=Hola%20quiero%20mas%20informacion%20de%20los%20planes%20de%20entrenamiento"
+      target="_blank">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" />
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
