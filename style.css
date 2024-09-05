@@ -31,11 +31,11 @@ body{
     text-align: center;
 }
 .card {
-    transition: transform 0.3s ease; /* Transición suave */
+    transition: transform 0.3s ease; 
   }
   
   .card:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    transform: scale(1.1);
   }
   
 nav{
@@ -118,11 +118,33 @@ card{
 .plan:hover{
     border: 3px solid rgb(78, 254, 254);
 }
+
+
 .centrado {
+    text-align: center;
     z-index: 999;
     position: absolute;
-    top: 70%;
-    left: 40%;
+    top: 33%;
+    left: 27%;
+    width: 220px;
+    height: 40px;
+    font-weight: bolder;
+}
+.centrado2{
+    font-weight: bolder;
+    z-index: 999;
+    position: absolute;
+    top: 29%;
+    left: 13%;
     width: 200px;
+    height: 100px;
+}
+.centrado3{
+    font-weight: bolder;
+    z-index: 999;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    width: 230px;
     height: 100px;
 }

@@ -24,7 +24,7 @@
       class="navbar navbar-expand-lg colorPrincipal border-bottom border-white bg-black text-light p-2 d-flex flex-row">
       <div class="container-fluid">
         <div>
-          <img src="./Logo.png" width="80" alt="">
+          <img src="./Logo.png" width="90" alt="">
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,43 +33,43 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav d-flex flex-col ms-auto">
             <li class="nav-item">
-              <a class="nav-link active text-light line-poner" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active text-light line-poner" aria-current="page" href="#Inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light line-poner" href="#">Negocios</a>
+              <a class="nav-link text-light line-poner" href="#Negocios">Negocios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light line-poner" href="#">Para ti</a>
+              <a class="nav-link text-light line-poner" href="#Parati">Para ti</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light line-poner" href="#">Preguntas</a>
+              <a class="nav-link text-light line-poner" href="#Preguntas">Preguntas</a>
             </li>
             <li class="nav-item text-light">
-              <a class="nav-link text-light line-poner" href="#">Descargas</a>
+              <a class="nav-link text-light line-poner" href="#Descargas">Descargas</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
   </header>
 
   <main class="d-flex flex-column justify-content-center align-items-center">
-    <figure class="centrado">
-      <img src="./Logo.png" width="280" alt="" class="">
-    </figure>
+    
     <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner ">
         <div class="carousel-item active" data-bs-interval="1000">
+          <h2 class="centrado">El mejor lugar</h2>
           <img
-            src="https://i0.wp.com/blog.smartfit.com.mx/wp-content/uploads/2023/08/como-entrenar-en-el-gym-por-un-dia-peso-libre-1.jpg?fit=1200%2C675&ssl=1"
+            src="https://www.mundorh.com.br/wp-content/uploads/2021/12/smart-fit.jpg.webp"
             class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
+          <h2 class="centrado2 ">Los mejores entrenadores</h2>
           <img src="https://www.bestgym.com.mx/storage/carousels/August2023/zP57JEjBN0eGOz4xyTvO.jpg"
             class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
+          <h2 class="centrado3 ">Enfocate en ti</h2>
           <img src="https://img.livestrong.com/-/clsd/getty/5825b909fdc14525aa5007569ad2df08.jpg" class="d-block w-100"
             alt="...">
         </div>
@@ -88,7 +88,10 @@
       
       <h1 class="" style="display: none;">POWERFIT</h1>
 
-    <section id="Inicio"  class="colorBlanco d-flex flex-column justify-content-center align-items-center p-5 m-5 w-75  mb-2 m-5 bg-black text-white">
+    <section id="Inicio"  class="colorBlanco d-flex flex-column justify-content-center align-items-center px-5 py-3 w-75  mb-2 bg-black text-white">
+      <figure >
+        <img src="./Logo.png" width="280" alt="" class="logo">
+      </figure>
       <p class="text-center"> ¡Bienvenido a Power Fit, el gimnasio donde tu transformación física y mental comienza hoy!
         <br>
         Ubicado en el vibrante corazón de la ciudad, Power Fit se erige como el destino definitivo para aquellos que
@@ -101,10 +104,12 @@
         resistencia hasta nuestras zonas de cardio equipadas con televisores y sistemas de sonido envolventes, cada
         rincón está pensado para maximizar tu rendimiento y comodidad.
       </p>
-      <button type="button" class="btn btn-outline-info m-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" class="btn btn-outline-info m-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Video presentacion
       </button>
     </section>
+
+
     <section>
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
         <div class="modal-dialog ">
@@ -120,18 +125,18 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary" onclick="window.open('https://www.youtube.com/embed/HQfF5XRVXjU', '_blank')">Ver en YouTube</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <br><br><br>
+    <br>
 
-    <h1>¡Escoge la que te quede más cercana!</h1>
+    <h1 id="Parati">¡Escoge la que te quede más cercana!</h1>
     <br><br>
-    <section id="Parati" class="sedes1 d-flex flex-row gap-4 justify-content-center align-items-center flex-wrap fs-6Y">
+    <section  class="sedes1 d-flex flex-row gap-4 justify-content-center align-items-center flex-wrap fs-6Y">
       <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
         <img src="https://s3.amazonaws.com/smartsystem-prod/pictures/10786/big/Open_Plaza_Huancayo.jpeg?1664485240"
           class="card-img-top" alt="Open Plaza Huancayo" style="height: 190px; width: 100%;">
@@ -144,7 +149,7 @@
             <p class="fw-bold">FIT: S/89,90</p>
             <p class="fw-bold">BLACK: S/109,90</p>
           </div>
-          <a href="./formulario.html" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+          <a href="#Planes" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
         </div>
       </div>
       <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
@@ -159,7 +164,7 @@
             <p class="fw-bold">FIT: S/89,90</p>
             <p class="fw-bold">BLACK: S/109,90</p>
           </div>
-          <a href="./formulario.html" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+          <a href="#Planes" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
         </div>
       </div>
       <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
@@ -175,7 +180,7 @@
             <p class="fw-bold">FIT: S/89,90</p>
             <p class="fw-bold">BLACK: S/109,90</p>
           </div>
-          <a href="./formulario.html" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+          <a href="#Planes" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
         </div>
       </div>
       <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
@@ -190,7 +195,7 @@
             <p class="fw-bold">FIT: S/89,90</p>
             <p class="fw-bold">BLACK: S/109,90</p>
           </div>
-          <a href="./formulario.html" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+          <a href="#Planes" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
         </div>
       </div>
       <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
@@ -205,7 +210,7 @@
             <p class="fw-bold">FIT: S/89,90</p>
             <p class="fw-bold">BLACK: S/109,90</p>
           </div>
-          <a href="./formulario.html" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
+          <a href="#Planes" class="btn btn-outline-info w-100">¡Inscríbete ya!</a>
         </div>
       </div>
       <div class="card shadow-lg mb-5 bg-black text-white rounded border border-0" style="width: 350px; height: 450px;">
@@ -216,60 +221,13 @@
           <h3 class="card-title h3 m-0">Park Office La Molina</h3>
           <p class="card-text fst-italic m-0">Av. Javier Prado Este 6210, La Molina, Lima</p>
           <a href="" class="">Ver gimnasio</a>
-          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">¡Inscríbete ya!</a>
+          <a href="" class="btn btn-outline-info w-100 mt-4">¡Inscríbete ya!</a>
         </div>
       </div>
     </section>
-    <br><br><br>
-    <h1>Opciones de Membresía</h1>
-    <section class="d-flex flex-col gap-5 m-3 d-flex flex-row gap-4 justify-content-center align-items-center flex-wrap fs-6Y">
-      <div class="card  bg-black text-white  p-0 m-0" style="min-width: 100px; max-width:400px ; min-height: 400px;">
-        <!--         <img src="..." class="card-img-top" alt="...">
- -->
-        <div class="card-body  d-flex flex-column justify-content-center align-items-center plan">
-          <h3 class="card-title p-0 m-0">Plan Power</h3>
-          <ul>
-            <li>Entrena en la sede que elijas.</li>
-            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
-            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
-          </ul>
-          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
-        </div>
-      </div>
-      <div class="card bg-black text-white" style="min-width: 100px; max-width:400px ; min-height: 400px;">
-        <!--         <img src="..." class="card-img-top" alt="...">
- -->
-        <div class="card-body d-flex flex-column justify-content-center align-items-center plan">
-          <h3 class="card-title p-0 m-0">Plan Fit</h3>
-          <ul>
-            <li>Entrena en tu gimnasio de elección.</li>
-            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
-            <li>Clases grupales con profesores, incluidas actividades como baile, activación y relajación.</li>
-            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
-          </ul>
-          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
-        </div>
-      </div>
-      <div class="card bg-black text-white" style="width: 25rem;">
-        <!--         <img src="..." class="card-img-top" alt="...">
- -->
-        <div class="card-body d-flex flex-column justify-content-center align-items-center plan">
-          <h3 class="card-title p-0 m-0">Plan Black</h3>
-          <ul>
-            <li>Entrena en cualquiera de las más de 1500 sedes de Smart Fit en Perú y Latinoamérica.</li>
-            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
-            <li>Clases grupales con profesores, incluidas actividades como baile, activación y relajación.</li>
-            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
-            <li>Uso de Smart Fit Go para entrenar donde y cuando quieras.</li>
-            <li>Relájate en los sillones de masaje.</li>
-            <li>Opción de invitar a 5 personas al mes al gimnasio que prefieras.</li>
-          </ul>
-          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
-        </div>
-      </div>
-    </section>
-    <br><br><br>
-    <section class="d-flex flex-column justify-content-center align-items-center m-5 p-5 w-75 bg-black text-white">
+
+    <br><br>
+    <section id="Negocios" class="d-flex flex-column justify-content-center align-items-center m-5 p-5 w-75 bg-black text-white">
       <h3>¡Contáctanos!</h3>
       <br>
       <form class="row g-3 w-100">
@@ -310,12 +268,62 @@
           </div>
         </div>
         <div class="col-12 text-center ">
-          <button class="btn btn-outline-info px-4 py-3 " type="submit">Enviar</button>
+          <button class="btn btn-outline-info" type="submit">Enviar</button>
         </div>
       </form>
     </section>
+    <br>
+    <h1 id="Planes">Opciones de Membresía</h1>
+    <br>
+    <section style="font-size: 13px;" class="d-flex flex-col gap-5 m-3 d-flex flex-row gap-4 justify-content-center align-items-center flex-wrap fs-6Y">
+      <div class="card  bg-black text-white  p-0 m-0" style="min-width: 100px; max-width:400px ; min-height: 400px;">
+        <div class="card-body  d-flex flex-column justify-content-center align-items-center plan">
+          <h3 class="card-title p-0 m-0">Plan Power</h3>
+          <p class="fw-bold">S/79,90</p>
+          <ul>
+            <li>Entrena en la sede que elijas.</li>
+            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
+            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
+          </ul>
+          
+          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
+        </div>
+      </div>
+      <div class="card bg-black text-white" style="min-width: 100px; max-width:400px ; min-height: 400px;">
+        <div class="card-body d-flex flex-column justify-content-center align-items-center plan">
+          <h3 class="card-title p-0 m-0">Plan Fit</h3>
+          <p class="fw-bold">S/89,90</p>
+          <ul>
+            <li>Entrena en tu gimnasio de elección.</li>
+            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
+            <li>Clases grupales con profesores, incluidas actividades como baile, activación y relajación.</li>
+            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
+          </ul>
+
+          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
+        </div>
+      </div>
+      <div class="card bg-black text-white" style="width: 25rem;">
+        <div class="card-body d-flex flex-column justify-content-center align-items-center plan">
+          <h3 class="card-title p-0 m-0">Plan Black</h3>
+          <p class="fw-bold">S/109,90</p>
+          <ul>
+            <li>Entrena en cualquiera de las más de 1500 sedes de Smart Fit en Perú y Latinoamérica.</li>
+            <li>Acceso ilimitado a todas las áreas de peso libre e integrado (máquinas, pesas, discos y barras).</li>
+            <li>Clases grupales con profesores, incluidas actividades como baile, activación y relajación.</li>
+            <li>Acceso a la aplicación Smart Fit con un plan de entrenamiento personalizado.</li>
+            <li>Uso de Smart Fit Go para entrenar donde y cuando quieras.</li>
+            <li>Relájate en los sillones de masaje.</li>
+            <li>Opción de invitar a 5 personas al mes al gimnasio que prefieras.</li>
+          </ul>
+          
+          <a href="./formulario.html" class="btn btn-outline-info w-100 mt-4">Adquirir plan</a>
+        </div>
+      </div>
+    </section>
+    
     <br><br><br>
-    <section class="descargas colorBlanco w-100 d-flex justify-content-between align-items-center p-5"
+    <section id="Descargas" class="descargas colorBlanco w-100 d-flex justify-content-between align-items-center p-5"
       style="background-color: rgb(78, 254, 254);">
       <div class="col-6 p-4">
         <h2>Descargas una experiencia de entrenamiento completa, dentro y fuera del gimnasio.</h2>
@@ -444,10 +452,10 @@
     <div class="linee"></div>
     <div class="d-flex flex-column justify-content-center align-items-center text-white">
       <div class="d-flex flex-column justify-content-center align-items-center">
-        <a class="text-white line-poner" href="../trabajoo/SobreNosotros.html">¿Quiénes somos?</a>
-        <a class="text-white line-poner" href="../trabajoo/Reclamos.html">LIBRO DE RECLAMACIONES</a>
-        <a class="text-white line-poner" href="../trabajoo/Sustentabilidad.html">Sustentabilidad</a>
+        <a class="text-white line-poner" href="#Inicio">¿Quiénes somos?</a>
+        <a class="text-white line-poner" href="">LIBRO DE RECLAMACIONES</a>
         <a class="text-white line-poner" href="#Planes">Conoce nuestros planes</a>
+        <a class="text-white line-poner" href="">Sustentabilidad</a>
       </div>
     </div>
     <div class="reclamaciones">
@@ -455,7 +463,7 @@
     </div>
   </footer>
   <div class="contacto position-fixed bottom-0 end-0">
-    <a href="https://wa.me/5215570000000?text=Hola%20quiero%20mas%20informacion%20de%20los%20planes%20de%20entrenamiento"
+    <a href="https://chat.whatsapp.com/IGmNSCMbcRvBq8yi5ccrUH"
       target="_blank">
       <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" />
     </a>

@@ -31,66 +31,64 @@
             font-size: 0.9rem;
             padding: 5px;
         }
+        body {
+            height: 100vh;
+        }
     </style>
 </head>
-<body>
-    <header class="">
-        <nav
-          class="navbar navbar-expand-lg colorPrincipal border-bottom border-white bg-black text-light p-2 d-flex flex-row">
+<body style="height: 100vh;">
+    <header class="" style="height: 10%;">
+        <nav class="navbar navbar-expand-lg colorPrincipal border-bottom border-white bg-black text-light p-2 d-flex flex-row">
           <div class="container-fluid d-flex justify-content-center">
             <div class="">
-              <img src="./Logo.png" width="80" alt="">
+              <img src="./Logo.png" width="100" alt="">
             </div>
-            
           </div>
         </nav>
-    
       </header>
-    <div class="container mt-2 ">
-        <div class="text-center mb-4">
-            <h1 class="h-3">Formulario de Pago</h1>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card mb-4 shadow-sm " style="width: 500px;">
-                    <div class="card-body">
-                        <h3 class="card-title">Plan Seleccionado: <span class="text-primary">Plan ....</span></h3>
-                        <p class="card-text">Precio: <span class="text-success">S/ ....</span> <small class="text-muted">por mes</small></p>
-                        <form>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Nombre Completo</label>
-                                <input type="text" class="form-control" id="name" required>
+    
+    <div class="d-flex justify-content-center align-items-center " style="height: 90%;">
+        <div class="container mt-2 ">
+            <div class="text-center mb-4">
+                <br>
+                <h1 class="h-3 ">Formulario de Pago</h1>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body bg-black text-white">
+                    <form class="row g-3 w-100">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cardNumber" class="form-label">Número de Tarjeta</label>
+                            <input type="text" class="form-control" id="cardNumber" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="expiryDate" class="form-label">Fecha de Expiración</label>
+                                <input type="text" class="form-control" id="expiryDate" placeholder="MM/AA" required>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="email" required>
+                            <div class="col-md-6 mb-3">
+                                <label for="cvv" class="form-label">CVV</label>
+                                <input type="text" class="form-control" id="cvv" required>
                             </div>
-                            <div class="mb-3">
-                                <label for="cardNumber" class="form-label">Número de Tarjeta</label>
-                                <input type="text" class="form-control" id="cardNumber" required>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="expiryDate" class="form-label">Fecha de Expiración</label>
-                                    <input type="text" class="form-control" id="expiryDate" placeholder="MM/AA" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="cvv" class="form-label">CVV</label>
-                                    <input type="text" class="form-control" id="cvv" required>
-                                </div>
-                            </div>
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Pagar</button>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="d-grid">
+                            <a href="./index.html" class="btn btn-outline-info">Pagar</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
-    </body>
+</body>
 </html>
