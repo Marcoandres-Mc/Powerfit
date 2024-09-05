@@ -148,3 +148,16 @@ card{
     width: 230px;
     height: 100px;
 }
+
+@media (max-width: 600px) {
+    .carrusel {
+        display: none !important;
+    }
+}
+
+@media (min-width: 599px) {
+    .bannerPhone {
+        display: none !important;
+    }
+}
+
