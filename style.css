@@ -149,6 +149,17 @@ card{
     height: 100px;
 }
 
+.centrado3App{
+    font-weight: bolder;
+    z-index: 999;
+    position: absolute;
+    top: 34%;
+    left: 22%;
+    width: 175px;
+    height: 30px;
+    background-color: rgba(232, 244, 255, 0.375);
+}
+
 @media (max-width: 600px) {
     .carrusel {
         display: none !important;
