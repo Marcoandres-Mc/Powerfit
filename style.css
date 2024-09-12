@@ -34,9 +34,9 @@ body{
     transition: transform 0.3s ease; 
   }
   
-  .card:hover {
+.card:hover {
     transform: scale(1.1);
-  }
+}
   
 nav{
     box-shadow: 0 6px 9px -4px rgba(0, 0, 0, .1);
